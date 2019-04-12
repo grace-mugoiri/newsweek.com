@@ -1,0 +1,242 @@
+body{
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #f4f5f6;
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+.clearfix::before,
+.clearfix::after,
+.main-container::before,
+.main-container::after,
+.container-fluid::before,
+.container-fluid::after,
+.row::before,
+.row::after{
+    content: " ";
+    display: table;
+}
+.main-header{
+    z-index: 10px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.main-header .main-container{
+    position: relative;
+}
+.main-container{
+    max-width: 1310px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+    padding: 0;
+    position: relative;
+}
+
+div{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.header-top {
+    position: relative;
+    z-index: 2;
+    height: 95px;
+    padding: 20px 10px 15px;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+}
+.flex-xs{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.top-menu{
+    -webkit-justify-contents: flex-end;
+    justify-content: flex-end;
+}
+.flex-xs-6{
+    width: 50%;
+    height: 36px;
+}
+.date,
+.sign-in{
+    color: white;
+}
+
+.sub-btn{
+    background-color: white;
+    color: red;
+    float: right;
+}
+.sign-in{
+    /* background-color: white; */
+    color: white;
+    float: right;
+}
+.sub-btn:hover{
+    background-color: white;
+    color: red;
+    text-decoration: none;
+}
+.sign-in:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-in, 
+.sub-btn{
+    position: relative;
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 16px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-middle {
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+}
+.navbar{
+    background-color: white;
+    border-bottom: 2px solid #f4f5f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: " ";
+    display: block;
+    width: 66px;
+    background-color: red;
+    border-left: 12px solid white;
+    border-top: 13px solid red;
+}
+.navbar-nav{
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+}
+ul.navbar-nav li{
+    border-left: 1px solid #d9d9d9;
+    padding: 0;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+ul.navbar-nav li:first-child{
+    border-left-width: 0;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: red;
+}
+.newsweek{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header-bottom{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+} */
+/* #search-block-from--2 .element-invisible{
+    background-image: url();
+    width: 20px;
+    height: 20px;
+    clip: auto;
+    font-size: 0;
+    position: absolute;
+} */
+/* h2{
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    display: block;
+    margin-block-start: 13px;
+    margin-block-end: 13px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+label{cursor: default;}
+.main-header form#search-block-form--2 input[type=text]{
+    color: rgba(0,0,0,.55);
+    background-color: white;
+}
+form#search-block-form--2 input {
+    vertical-align: middle;
+}
+input[type=text]{
+    -webkit-appearance: none;
+}
+input{
+    margin: 0px;
+} */
+
+
+
+
+
+
+
+
+
+
+
