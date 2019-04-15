@@ -54,6 +54,7 @@ div{
     -webkit-align-items: flex-end;
     align-items: flex-end;
 }
+
 .flex-xs{
     display: -webkit-flex;
     display: flex;
@@ -130,6 +131,7 @@ a:hover {
     border-bottom: 2px solid #f4f5f6;
     padding-top: 10px;
     padding-bottom: 10px;
+    /* color: black; */
 }
 .navbar::before{
     position: absolute;
@@ -152,6 +154,7 @@ a:hover {
     -webkit-justify-content: center;
     justify-content: center;
     width: 100%;
+    
 }
 ul.navbar-nav li{
     border-left: 1px solid #d9d9d9;
@@ -306,7 +309,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
     color: black;
 }
-.related a:hover{
+.related a:hover,
+.block-info a:hover{
     color: red;
 }
 .related li{
@@ -333,6 +337,181 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px;
     margin-bottom: 20px;
 }
+.image {
+    margin-bottom: 10px;
+  }
+.block-image{
+    background-image: url(/Users/gracemugoiri/Desktop/newsweek/newsweek.com/assets/images/anthony.png);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.right-block li{
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.block-info{
+    padding-left: 10px;
+}
+.right-block li:first-child{
+    border-top: 0;
+    padding-top: 10px;
+}
+.block-info a {
+    font: bold 16px/20px "Roboto Condensed",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 16px;
+  }
+  .flex-xs {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+  }
+.author:hover{
+    color: red;
+}
+.flex-sm{
+    display: flex;
+}
+.ai-fe{
+    align-items: flex-end;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.bottom-row .wrap{
+    position: relative;
+}
+.bottom-row{
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+img .bottom{
+   display: block;
+   background-color: white;
+   width: 100%;
+}
+.bottom-row .wrap .category{
+    display: block;
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    color: red;
+    text-transform: uppercase;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, .9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+.bottom-row .feature{
+    display: block;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+.feature{
+    padding: 10px 10px 10px 12px;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+}
+#feature:hover {
+    text-decoration: none;
+    background-color: gray;
+}
+.n-title{
+    font: bold 19px/19px "Roboto Condensed", sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.jc-c{
+    justify-content: center;
+}
+.ai-c{
+    align-items: center;
+}
+.flex-xs{
+    display: flex;
+}
+.n-title .icon-n{
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background-image: url(/Users/gracemugoiri/Desktop/newsweek/newsweek.com/assets/images/news-logo.png);
+    margin-right: 10px;
+}
+.col-sm-4{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.article{
+    display: block;
+}
+.bottom-row article .category span:first-of-type {
+    padding: 0 7px;
+    background-color: red;
+    color: white;
+    margin-right: 7px;
+}
+.bottom-row article .category span{
+    display: inline-block;
+}
+#bottom-heading1,
+#bottom-heading2,
+#bottom-heading3{
+    color: black;
+}
+/* .col-sm-4.image{
+    height: 311px;
+    width: 466px;
+} */
+.image a {
+    display: block;
+}
+#bottom-header-image1,
+#bottom-header-image2,
+#bottom-header-image3{
+    height: 250px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
