@@ -14,7 +14,7 @@ This project is created using HTML and CSS, Bootstrap and Fontawesome.
 
 
 # Github pages
-[Here](https://whiz25.github.io/youtube-clone/index.html)
+[Here](https://https://grace-mugoiri.github.io/newsweek.com/)
 
 # Authors
 @grace-mugoiri
