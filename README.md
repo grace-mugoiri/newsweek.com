@@ -1,5 +1,5 @@
 # thenewsweek
-A basic HTML and CSS project for embedding videos and images.
+A basic website that demonstrates using bootstrap.
 
 # Prerequisites
 
