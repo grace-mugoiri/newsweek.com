@@ -1,5 +1,6 @@
 # thenewsweek
-A basic website that demonstrates how to use bootstrap.
+
+A basic website that demonstrates using bootstrap.
 
 # Prerequisites
 
