@@ -15,7 +15,7 @@ This project is created using HTML and CSS, Bootstrap and Fontawesome.
 
 
 # Github pages
-[Here](https://https://grace-mugoiri.github.io/newsweek.com/)
+https://grace-mugoiri.github.io/newsweek.com/
 
 # Authors
 @grace-mugoiri
